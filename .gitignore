@@ -11,3 +11,4 @@ report/*.log
 report/*.fls
 report/*.fdb_latexmk
 report/*.synctex.gz
+.claude/

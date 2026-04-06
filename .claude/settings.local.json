@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(PYTHONPATH=src python3 -m pytest tests/ -v)",
-      "Bash(PYTHONPATH=src python3 demo.py --mode fiat-shamir)",
-      "Bash(PYTHONPATH=src python3 benchmark.py)"
-    ]
-  }
-}
