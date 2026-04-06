@@ -28,16 +28,12 @@ Demonstrate how a prover can prove knowledge of a secret key without revealing i
   - Reproducible benchmark for communication and runtime comparison.
 - `tests/test_auth.py`
   - correctness, forgery rejection, replay rejection, and subgroup validation tests.
-- `report/PROJECT_REPORT.md`
-  - submission-ready report draft (design, security analysis, evaluation framework).
+- `report/main.tex` and `report/main.pdf`
+  - final report source and compiled PDF.
 
 ## Quick start
 
-From project root:
-
-```bash
-cd "/Applications/big four/Queen 研究生/2026Winter/CISC 878/Project878"
-```
+From repository root:
 
 Run interactive mode demo:
 
@@ -92,6 +88,6 @@ Reported metrics:
 - runnable code implementation
 - tests
 - benchmark script and result export
-- report draft
+- report source and PDF
 
 This is intentionally a teaching/demo implementation, not production cryptographic software.
