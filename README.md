@@ -28,8 +28,6 @@ Demonstrate how a prover can prove knowledge of a secret key without revealing i
   - Reproducible benchmark for communication and runtime comparison.
 - `tests/test_auth.py`
   - correctness, forgery rejection, replay rejection, and subgroup validation tests.
-- `report/main.tex` and `report/main.pdf`
-  - final report source and compiled PDF.
 
 ## Quick start
 
@@ -58,7 +56,7 @@ PYTHONPATH=src pytest
 Run benchmarks for both modes:
 
 ```bash
-PYTHONPATH=src python3 benchmark.py --trials 500 --csv results/benchmark.csv
+PYTHONPATH=src python3 benchmark.py --trials 200 --csv results/benchmark.csv
 ```
 
 This prints a Markdown table and writes CSV output for your report.
@@ -88,6 +86,5 @@ Reported metrics:
 - runnable code implementation
 - tests
 - benchmark script and result export
-- report source and PDF
 
 This is intentionally a teaching/demo implementation, not production cryptographic software.
