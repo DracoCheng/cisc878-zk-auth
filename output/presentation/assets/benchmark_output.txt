@@ -1,0 +1,7 @@
+Trials per mode: 200
+| Mode | Avg auth time (ms) | Avg communication (bytes) | Round trips |
+|---|---:|---:|---:|
+| interactive | 0.2051 | 328.13 | 2 |
+| fiat-shamir | 0.1386 | 300.88 | 1 |
+
+Saved CSV to: results/benchmark.csv
